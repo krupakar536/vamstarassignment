@@ -1,0 +1,36 @@
+<html>
+
+
+	<script>
+	
+		function selectors()
+		{
+			document.getElementById("Publication_date").innerHTML = ("Publication date: #block-views-block-view-noticia-pbh-block-5 > div > div > div > div > div > div.views-field.views-field-nothing > span > span:nth-child(1) > span > font > font");
+			document.getElementById("Bidding_date").innerHTML = ("Bidding date: #block-views-block-view-noticia-pbh-block-5 > div > div > div > div > div > div.views-field.views-field-nothing > span > span:nth-child(19) > span > font > font");
+			document.getElementById("Object").innerHTML = ("Object:#block-views-block-view-noticia-pbh-block-5 > div > div > div > div > div > div.views-field.views-field-nothing > span > span:nth-child(4) > span > font > font");
+			document.getElementById("Additional_Information").innerHTML = ("Additional Information:#block-views-block-view-noticia-pbh-block-5 > div > div > div > div > div > div.views-field.views-field-nothing > span > span:nth-child(8) > span > font > font");
+
+			document.getElementById("Modality").innerHTML = ("Modality: #block-views-block-view-noticia-pbh-block-5 > div > div > div > div > div > div.views-field.views-field-nothing > span > span:nth-child(13) > span > font > font");
+			document.getElementById("Situation").innerHTML = ("Situation: #block-views-block-view-noticia-pbh-block-5 > div > div > div > div > div > div.views-field.views-field-nothing > span > span:nth-child(16) > span > font > font");
+			document.getElementById("Historic").innerHTML = ("Historic: #block-views-block-view-noticia-pbh-block-5 > div > div > div > div > div > div.views-field.views-field-nothing > span > span:nth-child(22) > span > font > font");
+		}
+	
+	</script>
+	
+		<body>
+		
+			<p id="Publication_date"> </p>
+			<p id="Bidding_date"> </p>
+			<p id="Object"> </p>
+			<p id="Additional_Information"> </p>
+			<p id="Modality"> </p>
+			<p id="Situation"> </p>
+			<p id="Historic"> </p>
+		
+			<button onclick="selectors();">Show Selectors</button>
+		
+		
+		</body>
+		
+	
+</html>
